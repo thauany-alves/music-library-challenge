@@ -1,0 +1,25 @@
+.inputSearch{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.inputSearch span{
+  margin-right: 10px;
+}
+
+.inputSearch input{
+  width: 300px;
+  background: none;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2;
+  color: var(--dropline);
+}
+
+.inputSearch input:focus{
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
