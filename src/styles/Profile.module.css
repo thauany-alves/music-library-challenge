@@ -36,13 +36,19 @@
   font-size: 1.2rem;
 }
 .profile a{
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 500;
 
   padding-top: 8px;
   display: flex;
   flex-direction: row;
   align-items: center;
+
+  transition: color 250ms;
+}
+
+.profile a:hover{
+  color: var(--titles);
 }
 
 .profile a span{
