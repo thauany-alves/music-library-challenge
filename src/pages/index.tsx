@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Playlist from '../components/Playlist';
 import Search from '../components/Search';
 import Sidebar from '../components/Sidebar';
+import Views from '../components/Views';
 
 import styles from '../styles/Home.module.css';
 
@@ -16,7 +17,9 @@ function HomePage() {
         <div className={styles.dashboard}>
           <Search />
           <Playlist />
-          {/* <Playlist /> */}
+          <div className={styles.viewsAndTracks}>
+            <Views />
+          </div>
         </div>
       </div>
       

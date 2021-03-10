@@ -1,6 +1,5 @@
 .container{
   margin: 8px 0;
-  height: 40%;
 }
 
 .container h2{
@@ -11,7 +10,7 @@
 
 .playlistsCards{
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
 }

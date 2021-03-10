@@ -7,10 +7,16 @@
 .dashboard{
   margin-left: 20%;
   width: 80vw;
-  height: 100vh;
+  height: 100%;
   background: var(--background-page);
   /* display: grid;
   grid-template-rows: .1fr .9fr 1fr; */
   gap: 0;
   padding: 10px 10px 10px 30px;
+}
+
+.viewsAndTracks{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
 }
