@@ -2,19 +2,12 @@
   padding: 40px 10px;
   display: flex;
   flex-direction: row;
-  justify-content: baseline;
-}
-
-
-.profile img{
-  width: 34%;
-  border-radius: 5px;
-  margin-right: 10px;
+  align-items: center;
 }
 
 .profileImage{
-  width: 90px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   border-radius: 5px;
   margin-right: 10px;
   overflow: hidden;

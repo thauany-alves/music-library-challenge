@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: center;
   width: 100%;
+  margin-bottom: 12px;
 }
 
 .inputSearch span{
@@ -12,10 +13,12 @@
 .inputSearch input{
   width: 300px;
   background: none;
-  font-size: .8rem;
-  font-weight: 600;
+  font-size: .84rem;
+  font-weight: 500;
   line-height: 2.2;
   color: var(--dropline);
+
+  opacity: 0.8;
 }
 
 .inputSearch input:focus{

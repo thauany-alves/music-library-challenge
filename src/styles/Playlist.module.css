@@ -1,15 +1,14 @@
 .container{
-  margin: 8px 0;
+  margin: 24px 0;
 }
 
 .container h2{
   font-size: 1rem;
   line-height: 1.8;
-  margin-bottom: 5px;
 }
 
 .playlistsCards{
-  width: 100%;
+  padding-top: 12px;
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
@@ -36,9 +35,9 @@
   min-height: 190px;
   min-width: 190px;
   width: 228px;
-  margin-right: 12px;
+  margin-right: 16px;
   display: inline-block;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .card img{
@@ -50,9 +49,11 @@
 .card h3{
   line-height: 2;
   font-size: .9rem;
+  opacity: 0.9;
 }
 
 .card p{
   font-size: .7rem;
   font-weight: 500;
+  opacity: 0.8;
 }
