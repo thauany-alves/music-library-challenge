@@ -12,9 +12,9 @@
 .inputSearch input{
   width: 300px;
   background: none;
-  font-size: 1rem;
-  font-weight: 500;
-  line-height: 2;
+  font-size: .8rem;
+  font-weight: 600;
+  line-height: 2.2;
   color: var(--dropline);
 }
 
