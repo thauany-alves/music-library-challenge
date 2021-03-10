@@ -25,6 +25,22 @@ body{
   overflow-x: hidden;
 }
 
+body::-webkit-scrollbar-track {
+  /* border: 1px solid var(--sidebar-options); */
+  background-color: var(--scroll-bg);
+}
+
+body::-webkit-scrollbar {
+  width: 16px;
+  background: var(--scroll-bg);
+  
+}
+
+body::-webkit-scrollbar-thumb  {
+  /* border-left: 1px solid var(--sidebar-options); */
+  background: var(--scroll);
+ }
+
 h1, h2, h3{
   color: var(--titles);
 }

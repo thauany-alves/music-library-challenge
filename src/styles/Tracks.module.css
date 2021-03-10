@@ -1,0 +1,67 @@
+.container{
+  margin-top: 10px;
+}
+.container h2{
+  font-size: 1rem;
+}
+
+.tracks{
+  padding-top: 12px;
+  width: 380px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.tracks::-webkit-scrollbar-track {
+  background-color: var(--scroll-bg);
+  border-radius: 5px;
+}
+
+.tracks::-webkit-scrollbar {
+  height: 10px;
+  border-radius: 5px;
+  background: var(--scroll-bg);
+  
+}
+
+.tracks::-webkit-scrollbar-thumb  {
+  background: var(--scroll);
+  border-radius: 5px;
+ }
+
+.cardTrack{
+  min-height: 120px;
+  min-width: 85px;
+  width: 85px;
+  /* display: flex;
+  flex-direction: column; */
+  display: inline-block;
+  /* margin-right: 12px; */
+  margin-bottom: 12px;
+  margin-right: 16px;
+}
+.cardImage{
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.cardImage img{
+  /* width: 100%; */
+  height: 100%;
+}
+
+.cardTrack h6{
+  font-size: 0.75rem;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.cardTrack p{
+  font-size: 0.7rem;
+  font-weight: 500;
+  opacity: 0.6;
+}

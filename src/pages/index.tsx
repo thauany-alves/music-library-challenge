@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Playlist from '../components/Playlist';
 import Search from '../components/Search';
 import Sidebar from '../components/Sidebar';
+import Tracks from '../components/Tracks';
 import Views from '../components/Views';
 
 import styles from '../styles/Home.module.css';
@@ -19,6 +20,7 @@ function HomePage() {
           <Playlist />
           <div className={styles.viewsAndTracks}>
             <Views />
+            <Tracks />
           </div>
         </div>
       </div>
