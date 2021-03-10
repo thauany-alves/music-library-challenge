@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Playlist from '../components/Playlist';
 import Search from '../components/Search';
 import Sidebar from '../components/Sidebar';
 
@@ -14,6 +15,8 @@ function HomePage() {
         <Sidebar></Sidebar>
         <div className={styles.dashboard}>
           <Search />
+          <Playlist />
+          {/* <Playlist /> */}
         </div>
       </div>
       
